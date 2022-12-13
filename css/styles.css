@@ -105,9 +105,12 @@ line-height: calc(24 / 16)
 
 /*HERO*/
 .section{
-background:var(--gray-color);
+   background:var(--gray-color);
+background-image:url(../img/background/header-people-office.jpg);
+background-size: cover;
 padding-top: 192px;
 padding-bottom: 192px
+
 }
 
 .section-text{
@@ -259,6 +262,33 @@ text-align: center;
     padding: 32px 16px;
     background: var(--white-color);
  }
+ .team-soc-list{
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+ }
+ .team-soc-item{
+margin-right: 24px;
+ }
+ .team-soc-item :last-child{
+margin-right: 0;
+ }
+ .team-icons-link{
+   width: 40px;
+   height: 40px;
+   display: flex;
+   border-radius: 50%;
+   background-color: #4D5AE5;
+ }
+ .team-link{
+   width: 16px;
+   height: 16px;
+margin: 30% 30% 30% 30%;
+ }
+ .team-icons-link.instagram{
+   background-image: url(../img/icons-team.svg#icon-instagram);
+
+}
  
 
 
