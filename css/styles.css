@@ -103,6 +103,7 @@ line-height: calc(24 / 16)
 }
 
 
+
 /*HERO*/
 .section{
    background:var(--gray-color);
@@ -186,17 +187,25 @@ padding: 0;
 width: 264px;
 height: 112px;
 background-color: #F4F4FD;
-margin: 0;
+margin-bottom: 8px;
 padding: 0;
-
+border-radius: 4px;
+ }
+ .section-img :hover{
+   border: 1px solid #4D5AE5;
+   border-radius: 4px;
  }
  .section-item{
    margin: 0;
    padding: 0;
    padding: 24px 100px;
-   
-
+    
  }
+
+ .section-item :hover{
+   
+ }
+ 
  .section-two-item{
 width: 64px;
 height:64px;
@@ -215,6 +224,10 @@ height:64px;
  .title{
     margin-right: 24px;
     display: block;
+ }
+ .title :hover{
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
  }
  .title :last-child{
     margin-right: 0;
@@ -243,6 +256,8 @@ margin-bottom: 72px;
  .photo-team{
     display: block;
     margin-right: 24px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
  }
  .photo-team :last-child{
     margin-right: 0;
@@ -316,6 +331,7 @@ margin: 30% 30% 30% 30%;
    padding-bottom: 120px;
    margin: 0;
 }
+
 .customers-list{
    display: flex;
 }
@@ -389,16 +405,15 @@ margin: 0;
  .portfolio-img{
     display: block;
  }
- .section-portfolio-photo{
-    
- }
+ .section-portfolio-photo
+  
+
  .portfolio-text{
     padding: 32px 16px;
     border: 0.5px solid #F4F4FD;
     border-top: none;
  }
-
-
+ 
  .btn{
     color: var(--blue-color);;;
     font-family: inherit;
