@@ -145,7 +145,7 @@ border: none;
  }
 
 
- /*SECTION*/
+ /*SECTION-2*/
  .section-two-about .container{
     display: flex;
     align-items: center;
@@ -182,6 +182,23 @@ color: #434455;
 margin: 0;
 padding: 0;
  }
+ .section-img{
+   width: 264px;
+height: 112px;
+background-color: #F4F4FD;
+ }
+ .section-item{
+
+ }
+ .section-two-item{
+width: 64px;
+height:64px;
+margin-top: 24px;
+margin-right: 100px;
+margin-bottom: 24px;
+margin-left: 100px;
+ }
+
 
  /*Section 3 */
  .section-three{
