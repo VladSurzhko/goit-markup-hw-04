@@ -183,20 +183,23 @@ margin: 0;
 padding: 0;
  }
  .section-img{
-   width: 264px;
+width: 264px;
 height: 112px;
 background-color: #F4F4FD;
+margin: 0;
+padding: 0;
+
  }
  .section-item{
+   margin: 0;
+   padding: 0;
+   padding: 24px 100px;
+   
 
  }
  .section-two-item{
 width: 64px;
 height:64px;
-margin-top: 24px;
-margin-right: 100px;
-margin-bottom: 24px;
-margin-left: 100px;
  }
 
 
