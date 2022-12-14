@@ -309,7 +309,21 @@ margin: 30% 30% 30% 30%;
    background-image: url(../img/icons-team.svg#icon-instagram);
 
 }
- 
+
+/*CUSTOMERS*/
+.customers{
+   padding-top: 120px;
+   padding-bottom: 120px;
+   margin: 0;
+}
+.customers-list{
+   display: flex;
+}
+.customers-item{ 
+   border: 1px solid #8E8F99;
+   width: 168px;
+   height: 88px; 
+}
 
 
 /*FOOTER*/
