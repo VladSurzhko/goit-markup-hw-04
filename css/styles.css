@@ -111,6 +111,7 @@ background-image:url(../img/background/header-people-office.jpg);
 background-size: cover;
 padding-top: 192px;
 padding-bottom: 192px
+background-image: linear-gradient(rgba(46,47,66,0.7),rgba(46, 47, 66, 0.7)), url(../img/background/header-people-office.jpg);
 
 }
 
