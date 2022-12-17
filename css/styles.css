@@ -106,11 +106,14 @@ line-height: calc(24 / 16)
 
 /*HERO*/
 .section{
+   max-width: 1440px;
    background:var(--gray-color);
 background-image:linear-gradient(rgba(46,47,66,0.7),rgba(46, 47, 66, 0.7)),url(../img/background/header-people-office.jpg);
 background-size: cover;
+margin: 0 auto;
 padding-top: 192px;
 padding-bottom: 192px
+
 
 }
 
@@ -189,12 +192,12 @@ width: 264px;
 height: 112px;
 background-color: #F4F4FD;
 margin-bottom: 8px;
-padding: 0;
 border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
  }
- .section-img :hover{
-   border-radius: 4px;
- }
+ 
  .section-item{
    margin: 0;
    padding: 0;
@@ -329,10 +332,6 @@ margin-right: 0;
    width: 16px;
    height: 16px;
  }
- .team-icons-link.instagram{
-   background-image: url(../img/icons-team.svg#icon-instagram);
-
-}
 
 /*CUSTOMERS*/
 .customers{
@@ -354,42 +353,45 @@ margin-bottom: 72px;
   padding: 0;
   justify-content: center;
 }
-.customers-list :hover{
-   border: 1px solid #4D5AE5;
-   border-radius: 4px;
-}
 .customers-item{ 
-   border: 1px solid #8E8F99;
    width: 168px;
    height: 88px;
    margin-right: 24px; 
 border-radius: 4px;
+border: 1px solid #8E8F99;
 }
 .customers-item :last-child{
    margin-right: 0;
 }
-.customers-item :hover{
-}
+
 .customers-link{
    display: block;
 width: 104px;
 height: 56px;
-margin: 16px 32px;
-
 }
-.customers-link{
 
-}
-.customers-link :hover{
-
-}
 .customers-color{
-
-}
-.customers-color:hover{
-background-color: #404BBF;
-border: 1px solid #4D5AE5;
+width: 100%;
+height: 100%;
 border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+color:  #8E8F99;
+border:#8E8F99; 
+}
+
+.customers-color:hover{
+   color: #4D5AE5;
+   border: 1px solid #4D5AE5;
+}
+.customers-color:focus{
+   color: #4D5AE5;
+   border: 1px solid #4D5AE5;
+}
+  
+.customers-link {
+fill:currentColor;
 }
 
 
@@ -452,11 +454,13 @@ margin: 0;
    display: flex;
    align-items: center;
    justify-content: center;
-    padding: 8px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
  }
  .footer-link :hover{
+   background: #31D0AA;
+ }
+ .footer-link :focus{
    background: #31D0AA;
  }
  .footer-soc-list{
@@ -505,21 +509,28 @@ margin-right: 16px;
  .portfolio-img{
     display: block;
  }
- .section-portfolio-photo :hover{
-   border: 0.5px solid #F4F4FD;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+ .section-portfolio-photo{
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
  }
-.link :hover{
-   
+ .portfolio-link{
+   display: block;
+ }
+ 
+.portfolio-link :hover{
+   border: 0.5px solid #F4F4FD;
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
+.portfolio-link :focus{
+   border: 0.5px solid #F4F4FD;
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
  .portfolio-text{
     padding: 32px 16px;
-    border: 0.5px solid #F4F4FD;
     border-top: none;
  }
  
  .btn{
-    color: var(--blue-color);;;
+    color: var(--blue-color);
     font-family: inherit;
     background: #F4F4FD;
     cursor: pointer;
@@ -534,11 +545,11 @@ border-radius: 4px;
  }
  .btn:focus{
 color: var(--white-color);
-    background: var(--blue-color);;
+    background: var(--blue-color);
  }
  .btn:hover{
     color: var(--white-color);
-    background: var(--blue-color);;
+    background: var(--blue-color);
  }
  .discription{
     font-weight: 500;
